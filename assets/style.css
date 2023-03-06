@@ -66,3 +66,36 @@ a {
 .section-reversed .section-content {
     flex-direction: row-reverse;
 }
+
+
+.green-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-section .content {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.last-section .content .rose-box {
+    flex: 0 1 20%;
+}
+
+.last-section .content .box {
+    flex: 0 1 calc(50% / 4);
+}
+
+footer {
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    padding: 3px;
+}
+

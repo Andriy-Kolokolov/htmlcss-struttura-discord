@@ -51,3 +51,44 @@ section {
     border: 1px dashed;
     background-color: #fdbec9;
 }
+
+section.green-section {
+    background-color: #d1d1d1;
+    height: 600px;
+}
+
+.green-section .content {
+    border: 1px dashed;
+    height: 90%;
+    width: 70%;
+    background-color: #228a22;
+}
+
+.last-section .content{
+    background-color: #23272a;
+    height: 100%;
+}
+
+.last-section .content div {
+    height: 90%
+}
+
+.last-section .content .rose-box {
+    border: 1px dashed;
+    background-color: #ee7f7f;
+}
+
+.last-section .content .box {
+    border: 1px dashed white;
+    background-color: #20b1a9;
+}
+
+footer {
+    height: 50px;
+    background-color: #7efdd2;
+}
+
+footer div {
+    background-color: #fdb5bf;
+    border: 1px dashed;
+}
