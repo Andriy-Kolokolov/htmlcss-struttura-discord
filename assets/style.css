@@ -4,12 +4,16 @@
     margin: 0;
 }
 
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
 }
 
 .header {
-    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,4 +41,28 @@ a {
     list-style: none;
     justify-content: center;
     gap: 5px;
+}
+
+.welcome-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content1 {
+    flex: 0 1 45%;
+}
+
+.content2 {
+    flex: 0 1 25%;
+}
+
+.section-reversed .section-content {
+    flex-direction: row-reverse;
 }

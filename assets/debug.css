@@ -1,19 +1,53 @@
-.header {
+body {
+    background-color: grey;
+}
 
+.header {
+    height: 50px;
     background-color: #acd6e4;
 }
 
-.logo {
+.header div {
     border: 1px dashed;
     background-color: #d8a420;
 }
 
-.nav {
-    border: 1px dashed;
-    background-color: #d8a420;
+.welcome-box {
+    height: 250px;
+    background-color: #00008a;
 }
 
-.log-in {
+.welcome-box .box {
+    height: 70%;
+    width: 60%;
     border: 1px dashed;
-    background-color: #d8a420;
+    background-color: #ec81ec;
+}
+
+section {
+    height: 300px;
+}
+
+.section-normal {
+    background-color: #fdfdfd;
+}
+
+.section-reversed {
+    background-color: #d1d1d1;
+}
+
+.section-content {
+    height: 100%;
+}
+
+.content1 {
+    height: 80%;
+    border: 1px dashed;
+    background-color: #1e8ffd;
+}
+
+.content2 {
+    height: 80%;
+    border: 1px dashed;
+    background-color: #fdbec9;
 }
